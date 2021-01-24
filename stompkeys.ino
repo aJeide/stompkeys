@@ -95,7 +95,6 @@ void setup() {
     pinMode(InputPins[i], INPUT_PULLUP);
   }
 
-
   leftButtonBounce.attach(LeftButton, INPUT_PULLUP);
   leftButtonBounce.interval(25);
 
